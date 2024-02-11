@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h1 {
+  color: rgb(62, 142, 208);
+}
+form {
+  margin-top: 50px;
+}
+form input {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+form button {
+  padding: 11px;
+  font-size: 18px;
+  background-color: rgb(0, 209, 178);
+  color: white;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.activity-box {
+  width: 60px;
+  height: 40px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin: 2px;
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+  color: black;
+}
+
+.checked {
+  background-color: rgb(0, 209, 178);
+  color: white;
+}
+.calendar {
+  margin: 0 auto;
+
+  text-align: center;
+  padding: 40px;
+}
+.calendar .title {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: rgb(74, 74, 74);
+}
+.heading {
+  background-color: rgb(239, 245, 251);
+  text-align: center;
+  margin-right: 15px;
+  padding: 20px 50px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+span {
+  background-color: rgb(255, 99, 71);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+}
+.btn {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border: none;
+  margin-top: -12px;
+}
